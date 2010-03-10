@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressMatch", "AddressMatch\AddressMatch.csproj", "{4F227F26-7050-4CBA-83AA-FC5DA077CEAE}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ValidateAddress", "ValidateAddress\", "{34433C45-EE88-4117-A4CD-D31C2725B039}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{4F227F26-7050-4CBA-83AA-FC5DA077CEAE}|AddressMatch.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ValidateAddress"
+		Debug.AspNetCompiler.PhysicalPath = "ValidateAddress\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ValidateAddress\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ValidateAddress"
+		Release.AspNetCompiler.PhysicalPath = "ValidateAddress\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ValidateAddress\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1888"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AddressMatchClient", "AddressMatchClient\", "{E579707A-39AE-444C-840B-9E6823455E69}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{4F227F26-7050-4CBA-83AA-FC5DA077CEAE}|AddressMatch.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/AddressMatchClient"
+		Debug.AspNetCompiler.PhysicalPath = "AddressMatchClient\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\AddressMatchClient\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/AddressMatchClient"
+		Release.AspNetCompiler.PhysicalPath = "AddressMatchClient\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\AddressMatchClient\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1397"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F227F26-7050-4CBA-83AA-FC5DA077CEAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F227F26-7050-4CBA-83AA-FC5DA077CEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F227F26-7050-4CBA-83AA-FC5DA077CEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F227F26-7050-4CBA-83AA-FC5DA077CEAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34433C45-EE88-4117-A4CD-D31C2725B039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34433C45-EE88-4117-A4CD-D31C2725B039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34433C45-EE88-4117-A4CD-D31C2725B039}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{34433C45-EE88-4117-A4CD-D31C2725B039}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E579707A-39AE-444C-840B-9E6823455E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E579707A-39AE-444C-840B-9E6823455E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E579707A-39AE-444C-840B-9E6823455E69}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E579707A-39AE-444C-840B-9E6823455E69}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

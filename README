@@ -1,0 +1,22 @@
+AddressMatch v1.0 Alpha
+-----------------------
+AddressMatch validates USPS addresses and standardizes the address.
+
+Features Included:
+------------------
+. Corrects typos/spelling mistakes on Street No, Street Name, Street Suffix, Secondary Address Designator.
+. Standardizes the Street Suffix to USPS Standard Format.
+. Appends Zip+4 information to address.
+. Contains a WebService that returns the matching address as ';' separated addresses.
+. Provides a .Net API(assembly) that can be consumed by any .Net aware program.
+. Sample DB has 5074 addresses from Oregon State, scattered through 16 Zip Codes.
+. Building/Firm Name returned in the matching address.
+
+Enhancements:
+-----------------------
+. Street Number to support special characters '-', '/'
+. Strip down any other special character in the address
+. Add City spelling corrections and search on it.
+. Add missing components on the address.
+. Standardize Pre and Post Direction. Example, Convert 'East' to 'E' in Pre and Post Direction.
+. Need to support the address line 1 and address line 2 entered as a single line.
